@@ -1,0 +1,35 @@
+:root {
+  /* background color */
+  --primary-bg: #1c2b35;
+  --orange-bg: #ff9900;
+  /* text color */
+  --primary-text: #ffffff;
+  /* default font size */
+  --default-font-size: 17px;
+}
+.header {
+  height: 80px;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.header a {
+  color: var(--primary-text);
+  font-size: var(--default-font-size);
+  text-decoration: none;
+  margin-left: 36px;
+}
+.header a:hover {
+  color: yellow;
+}
+/* mobile device */
+@media screen and (max-width: 576px) {
+  .header {
+    display: none;
+  }
+}

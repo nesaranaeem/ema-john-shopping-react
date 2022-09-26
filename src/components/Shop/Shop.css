@@ -1,0 +1,25 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  margin: 80px 20px 10px 60px;
+}
+
+/* mobile device */
+@media screen and (max-width: 576px) {
+  .shop-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .product-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .order-summary {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+}
