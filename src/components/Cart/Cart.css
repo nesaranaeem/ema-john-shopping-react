@@ -1,0 +1,12 @@
+.cart {
+  position: sticky;
+  top: 0px;
+  padding: 30px 20px;
+}
+/* mobile device */
+@media screen and (max-width: 576px) {
+  .cart {
+    position: static;
+    text-align: center;
+  }
+}

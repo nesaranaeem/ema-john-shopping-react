@@ -1,5 +1,5 @@
 This is my first react app.
-**App Version": "0.1.0"**(test version)
+**App Version": "0.1.1"**(test version)
 
 Live Demo : [Hosted On Netlify](https://emajohn-shopping-react.netlify.app/).
 
