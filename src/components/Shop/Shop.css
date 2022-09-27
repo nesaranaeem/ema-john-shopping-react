@@ -24,5 +24,12 @@
   .product-container {
     grid-template-columns: repeat(1, 1fr);
     max-width: 100%;
+    margin: 5px;
+    gap: 10px;
+    place-items: center;
+  }
+  .order-summary {
+    margin: 5px;
+    padding: 0;
   }
 }
